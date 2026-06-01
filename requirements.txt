@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+tensorflow
+matplotlib
+seaborn
+opencv-python
+pillow
+fastapi
+uvicorn
+streamlit
+python-multipart
+requests
+joblib
+ipykernel
+-e .
