@@ -43,7 +43,7 @@ if uploaded_file is not None:
             uploaded_file.seek(0)
 
             prediction_response = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://brain-tumor-detection-system-1-73ft.onrender.com/predict",
                 files={
                     "file": (
                         uploaded_file.name,
@@ -62,7 +62,7 @@ if uploaded_file is not None:
             uploaded_file.seek(0)
 
             gradcam_response = requests.post(
-                "http://127.0.0.1:8000/gradcam",
+                "https://brain-tumor-detection-system-1-73ft.onrender.com/gradcam",
                 files={
                     "file": (
                         uploaded_file.name,
