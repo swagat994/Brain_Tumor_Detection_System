@@ -160,8 +160,6 @@ BrainTumorDetector/
 │       ├── train_pipeline.py
 │       └── predict_pipeline.py
 │
-├── tests/
-│
 ├── requirements.txt
 ├── requirements_freeze.txt
 ├── setup.py
@@ -316,7 +314,6 @@ Returns:
 # 🔮 Future Improvements
 
 * DICOM Image Support
-* Cloud Deployment
 * PDF Medical Report Generation
 * User Authentication
 * Model Monitoring
