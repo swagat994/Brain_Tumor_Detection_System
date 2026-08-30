@@ -220,3 +220,5 @@ __marimo__/
 artifacts/
 dataset/
 requirements_freeze.txt
+
+.vscode
